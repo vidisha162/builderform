@@ -11,6 +11,9 @@ function App() {
       <Routes>
         <Route path="/" element={<FormBuilder />} />
          <Route path="/preview" element={<FormPreview />} />
+          
+
+
          <Route path="/thankyou" element={<ThankYou />} />
       </Routes>
     </Router>
